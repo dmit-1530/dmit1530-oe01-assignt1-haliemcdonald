@@ -7,11 +7,524 @@
 
 body {
     color: #000;
-    text-align: center; 
+    text-align: center;
 }
 
-header, footer {
+header {
+    background-color: #111111;
+    color: #ffff;
+}
+
+header img {
+    width:20vw ;
+    height:7vh;
+}
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 3.5rem;
+    color: #FFFFFF;
+}
+
+header div {
+    display: flex;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    padding-top: 3rem;
+}
+
+header li a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    
+}
+
+header ul {
+    display: flex;
+    column-gap: 2rem;
+    list-style-type: none;
+    padding-left:5rem;
+    padding-bottom: 1.5rem;
+}
+
+/*Home Page Styling*/
+
+body {
     background-color: var(--blue-grey-50);
-    color: #fff;
-    padding: 2rem 4rem;   
+}
+
+main h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+p {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.intro-section {
+    background-color: var(--blue-grey-50);
+}
+
+.intro-section a {
+    background-color: #000;
+    color:var(--blue-grey-50);
+    font-size: 1rem;
+    text-decoration: none;
+    padding:1rem;
+    border-radius: 6px;
+}
+
+.intro-section p {
+    padding-bottom:2rem;
+}
+
+.vi-image {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom:3rem;
+}
+
+main img {
+    border-radius: 8px;
+}
+
+.second-section {
+    background-color: #FFFFFF ;
+}
+
+.third-section {
+    background-color: var(--blue-grey-100);
+}
+
+span {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.home-blockquote {
+    background-color: #78909C;
+    margin: 0 auto;
+    color:#FFFFFF;
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+
+.home-blockquote p:first-of-type {
+    font-size: 2rem;
+    font-family: "Libre Baskerville", serif;
+}
+
+.flex-container {
+    padding-bottom:2rem;
+}
+
+.architecture {
+    text-align: left;
+    padding-left:2rem;
+    padding-right:2rem;
+}
+
+.architecture li {
+    padding-bottom: 1rem;
+}
+
+.fourth-section {
+    background-color: var(--blue-grey-900);
+    padding-top:3rem;
+    padding-bottom:3rem;
+}
+
+.fourth-section div {
+    background-color: #ECEFF1;
+    margin-right:2rem;
+    margin-left: 2rem;
+    padding-top:4rem;
+    padding-bottom:4rem;
+    border-radius: 8px;
+}
+
+.fourth-section a {
+    background-color: #000;
+    color:var(--blue-grey-50);
+    font-size: 1rem;
+    text-decoration: none;
+    padding:1rem;
+    border-radius: 6px;
+}
+
+.fourth-section p {
+    padding-bottom:2rem;
+}
+
+.ii-image {
+    width: 100%;
+    padding-bottom:3rem;
+}
+
+footer {
+    background-color: #000;
+    color:#FFFFFF;
+}
+
+.footer-logo {
+    display: flex;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    padding-top: 4rem;
+}
+
+footer img {
+    width:25vw ;
+    height:7vh;
+}
+
+footer p {
+    font-size: 0.75rem;
+    color: var(--blue-grey-200);
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: left;
+    
+}
+
+.footer-flex {
+    display: flex;
+}
+
+footer li a {
+    text-decoration: none;
+    color: var(--blue-grey-200);
+    font-size: 0.75rem;
+}
+
+.footer-container p:first-of-type {
+    padding-left:2rem;
+    padding-bottom:1rem;
+    text-align: left;
+}
+
+footer p:last-of-type {
+    padding-bottom:4rem;
+}
+
+/*Gallery Page Styling*/
+
+.art-gallery {
+    background-color: var(--blue-grey-50);
+}
+
+.art-gallery img {
+    width:100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    border-radius: 8px;
+}
+
+.art-gallery h2 {
+    padding-top:1rem;
+}
+
+.container h3 {
+    font-size: 1.3rem;
+    padding-left: 1.3rem;
+}
+
+.container section {
+    text-align: left;
+}
+
+.art-gallery h2 {
+    text-align: center;
+}
+
+.gallery-blockquote p:first-of-type {
+    font-size: 2rem;
+    font-family: "Libre Baskerville", serif;
+}
+
+.gallery-blockquote {
+    background-color: #FFFFFF;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    padding-top:2rem;
+}
+
+.cultural-change {
+    background-color: #78909C;
+    color:#FFFFFF;
+    text-align: left;
+}
+
+.cultural-change h2 {
+    padding-left: 1.2rem;
+    padding-top:2rem;
+}
+
+.cultural-change p:last-of-type {
+    padding-bottom:4rem;
+}
+
+.features {
+    background-color: var(--blue-grey-900);
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.art-gallery p:last-of-type {
+    padding-bottom:3rem;
+}
+
+.features h2 {
+    padding-left: 1.2rem;
+    padding-top:4rem;
+}
+
+.features img {
+    width:100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.features li {
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+.features ul {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.features p:last-of-type {
+    padding-bottom:3rem;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width: 720px) {
+   
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    header h1 {
+        padding-bottom:2rem;
+    }
+   
+    header img {
+        width:15vw ;
+        height:7vh;
+    }
+    
+    header nav {
+        padding-top:2rem;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom:3rem;
+    }
+    
+    .flex-container article {
+        flex: 1 1 calc(50% - 20px);
+        text-align: left;
+        align-items: flex-start;
+        gap: 1rem;
+        padding-left: 1rem;
+    }
+
+    .flex-container article h3 {
+        padding-left:1.2rem;
+    }
+
+    span {
+        padding-left:1.2rem;
+    }
+
+    .architecture section {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .architecture img {
+        width: 100%;
+        padding-top:6rem;
+    }
+
+    .row-reverse {
+        flex-direction:row-reverse;
+    }
+
+    .width {
+        width:90%;
+    }
+
+    .fourth-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fourth-section div {
+        width:60%;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer img {
+        width:15vw ;
+        height:8vh;
+    }
+
+    .footer-flex {
+        gap:2rem;
+    }
+
+    footer p:last-of-type {
+        padding-top:3rem;
+        margin:0 auto;
+    }
+
+    .footer-container p:first-of-type {
+        text-align: left;
+        padding-top:1rem;
+    }
+
+    .paragraphs-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .paragraphs-flex p {
+        width: 50%;
+    }
+
+    .cultural-change h2 {
+        text-align: center;
+    }
+
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .features-ul {
+        width: 45%;
+    }
+
+    .features h2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .features img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .gallery-container section {
+        display: flex;
+        align-items: center;
+    }
+
+    .gallery-container section:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+
+    .gallery-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+        align-items: flex-start;
+    }
+    
+    .gallery-container div:first-child {
+        flex: 1;
+        min-width: 50%;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    
+    .flex-container article {
+        flex: 1 1 calc(30% - 20px);
+    }
+
+    .architecture {
+        display: flex;
+        flex-wrap: wrap;
+        gap:1.5rem;
+    }
+    
+    .architecture section {
+        flex: 1 1 calc(50% - 20px);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .architecture img {
+        padding-top:0rem;
+        padding-bottom:0rem;
+    }
+
+    .width {
+        width:100%;
+    }
+
+    header img {
+        width:8vw ;
+        height:7vh;
+    }
+
+    header {
+        justify-content: center;
+        gap: 15rem;
+    }
+
+    header nav {
+        padding-top:2rem;
+    }
+
+
+    footer img {
+        width:10vw ;
+        height:7vh;
+    }
+
+    .footer-flex {
+        gap:4rem;
+        margin-left:4rem;
+    }
+
+    .features {
+        justify-content: center;
+    }
 }
