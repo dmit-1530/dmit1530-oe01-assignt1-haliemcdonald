@@ -512,28 +512,12 @@ footer p:last-of-type {
         justify-content: center;
     }
 
-    .intro-section p,
-    .gallery-container,
-    .paragraphs-flex,
-    .flex-container,
-    .third-section {
-        padding-left:10rem;
-        padding-right:10rem;
-    }
-
-    .home-blockquote p,
-    .gallery-blockquote p
-     {
-        padding-left:10rem;
-        padding-right:10rem;
-    }
-
     .intro-section img {
         max-width: 100%;
     }
 
-    .lg-padding {
-        padding-left:10rem;
-        padding-right:10rem;
+    .inner-container {
+        max-width: 64rem;
+        margin: 0 auto;
     }
 }
